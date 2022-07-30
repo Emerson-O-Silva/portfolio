@@ -48,10 +48,18 @@
     border-top-right-radius: 4px;
 }
 
+.projetos .container-projetos .projeto .informacoes-projeto p{
+    margin-bottom: 20px;
+}
+
 .projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
     font-weight: 500;
     margin-top: 10px;
     font-size: 1.4rem;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto p a:hover{
+    color: var(--cor-secundaria);
 }
 
 .projetos .container-projetos .projeto h3 {
