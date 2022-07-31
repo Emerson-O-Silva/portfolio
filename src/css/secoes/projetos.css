@@ -59,7 +59,7 @@
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto p a:hover{
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 
 .projetos .container-projetos .projeto h3 {
