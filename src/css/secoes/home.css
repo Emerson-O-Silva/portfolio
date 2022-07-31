@@ -25,6 +25,12 @@
     }
 }
 
+.home .img-home .img-box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 .home .img-home .img-box img {
     max-width: 640px;
     transform: translateY(0px);
