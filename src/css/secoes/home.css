@@ -25,16 +25,22 @@
     }
 }
 
-.home .img-home .img-box {
-    max-width: 450px;
-    margin: auto;
-    border-radius: 50%;
+.home .img-home .img-box img {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
 }
 
-.home .img-home .img-box img {
-    width: 100%;
-    border-radius: 50%;
-    border: 10px solid transparent;
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .home .texto-home p {
