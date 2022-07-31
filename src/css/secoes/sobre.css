@@ -31,6 +31,41 @@
     margin-bottom: 20px;
 }
 
+.sobre-mim .botoes{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.sobre-mim .botoes .btn{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: var(--fonte-extra-grande);
+    border: none;
+    border-radius: 1000px;
+    color: #000;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: inset 0 0 20px #000;
+}
+
+.sobre-mim .botoes .btn:hover{
+    background: transparent;
+    color: var(--cor-primaria);
+    transform: scale(1.5) rotate(360deg);
+    box-shadow: 0 0 60px rgba(132, 112, 255, .64);
+    cursor: grab;
+    border: 2px solid var(--cor-primaria);
+}
+
+.sobre-mim .botoes .btn a{
+    color: #000;
+}
+
+.sobre-mim .botoes .btn a:hover{
+    color: var(--cor-primaria);
+}
+
 @media(max-width: 1280px) { 
     .sobre-mim .row{
         justify-content: center;
