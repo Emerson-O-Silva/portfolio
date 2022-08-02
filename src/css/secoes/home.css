@@ -1,3 +1,18 @@
+.home{
+    background: linear-gradient(45deg, #000000, #150050, #3F0071, #610094, #8236CB, #8470FF);
+    background-size: 400% 400%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+    0%, 100%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
 .home .full-screen {
     padding: 50px 0;
     min-height: 86vh;
@@ -38,14 +53,11 @@
 }
 
 @keyframes float {
-    0% {
+    0%, 100% {
         transform: translateY(0px);
     }
     50% {
         transform: translateY(-30px);
-    }
-    100% {
-        transform: translateY(0px);
     }
 }
 
