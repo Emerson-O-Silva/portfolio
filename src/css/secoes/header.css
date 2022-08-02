@@ -1,5 +1,6 @@
 .header {
-    padding: 30px 15px;
+    padding: 20px 15px;
+    background: linear-gradient(45deg, #000000, #150050, #3F0071);
 }
 
 .header .logo {
