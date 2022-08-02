@@ -74,6 +74,22 @@
     margin-bottom: 20px;
 }
 
+.home .texto-home h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 .home .texto-home h2 {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
