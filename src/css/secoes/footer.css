@@ -2,7 +2,7 @@
 .footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-cinza-claro);
+    background: linear-gradient(45deg, #000000, #150050, #3F0071);
 }
 
 .footer .container {
