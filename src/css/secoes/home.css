@@ -46,6 +46,12 @@
     }
 }
 
+@media (max-width: 576px) {
+    .home .img-home .img-box img{
+        max-width: 340px;
+    }
+}
+
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
