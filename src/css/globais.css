@@ -10,8 +10,8 @@ html {
   
   body {
     background: linear-gradient(90deg, #000000, #150050, #3F0071, #610094);
-    background-size: 1000% 1000%;
-    animation: colors 50s ease infinite;
+    background-size: 500% 500%;
+    animation: colors 20s ease-in-out infinite;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
