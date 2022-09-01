@@ -52,7 +52,7 @@
     margin-bottom: 20px;
 }
 
-.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
+.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(n+2) {
     font-weight: 500;
     margin-top: 10px;
     font-size: 1.4rem;
